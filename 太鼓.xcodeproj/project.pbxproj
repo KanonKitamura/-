@@ -14,6 +14,13 @@
 		E9A680361AB3C2F700BE224D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A680351AB3C2F700BE224D /* Images.xcassets */; };
 		E9A680391AB3C2F700BE224D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A680371AB3C2F700BE224D /* LaunchScreen.xib */; };
 		E9A680451AB3C2F700BE224D /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A680441AB3C2F700BE224D /* __Tests.m */; };
+		E9A6804F1AB3C39500BE224D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A6804E1AB3C39500BE224D /* AVFoundation.framework */; };
+		E9A680511AB3C3A500BE224D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A680501AB3C3A500BE224D /* AudioToolbox.framework */; };
+		E9A680551AB3CAAB00BE224D /* taiko.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A680541AB3CAAB00BE224D /* taiko.png */; };
+		E9A680571AB3CC6700BE224D /* 14_macho_damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */; };
+		E9A680591AB3CEA600BE224D /* taiko.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A680581AB3CEA600BE224D /* taiko.mp3 */; };
+		E9A6805B1AB3CF6F00BE224D /* taiko03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */; };
+		E9A6809B1AB3EBF700BE224D /* ここ.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A6809A1AB3EBF700BE224D /* ここ.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		E9A6803E1AB3C2F700BE224D /* 太鼓Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "太鼓Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A680431AB3C2F700BE224D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A680441AB3C2F700BE224D /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		E9A6804E1AB3C39500BE224D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E9A680501AB3C3A500BE224D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E9A680541AB3CAAB00BE224D /* taiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taiko.png; sourceTree = "<group>"; };
+		E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 14_macho_damage.wav; sourceTree = "<group>"; };
+		E9A680581AB3CEA600BE224D /* taiko.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko.mp3; sourceTree = "<group>"; };
+		E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko03.mp3; sourceTree = "<group>"; };
+		E9A6809A1AB3EBF700BE224D /* ここ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ここ.png"; path = "../ここ.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A680511AB3C3A500BE224D /* AudioToolbox.framework in Frameworks */,
+				E9A6804F1AB3C39500BE224D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,13 @@
 		E9A6801C1AB3C2F700BE224D = {
 			isa = PBXGroup;
 			children = (
+				E9A6809A1AB3EBF700BE224D /* ここ.png */,
+				E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */,
+				E9A680581AB3CEA600BE224D /* taiko.mp3 */,
+				E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */,
+				E9A680541AB3CAAB00BE224D /* taiko.png */,
+				E9A680501AB3C3A500BE224D /* AudioToolbox.framework */,
+				E9A6804E1AB3C39500BE224D /* AVFoundation.framework */,
 				E9A680271AB3C2F700BE224D /* 太鼓 */,
 				E9A680411AB3C2F700BE224D /* 太鼓Tests */,
 				E9A680261AB3C2F700BE224D /* Products */,
@@ -202,6 +225,11 @@
 				E9A680341AB3C2F700BE224D /* Main.storyboard in Resources */,
 				E9A680391AB3C2F700BE224D /* LaunchScreen.xib in Resources */,
 				E9A680361AB3C2F700BE224D /* Images.xcassets in Resources */,
+				E9A680551AB3CAAB00BE224D /* taiko.png in Resources */,
+				E9A6805B1AB3CF6F00BE224D /* taiko03.mp3 in Resources */,
+				E9A680571AB3CC6700BE224D /* 14_macho_damage.wav in Resources */,
+				E9A680591AB3CEA600BE224D /* taiko.mp3 in Resources */,
+				E9A6809B1AB3EBF700BE224D /* ここ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +440,7 @@
 				E9A6804A1AB3C2F700BE224D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A6804B1AB3C2F700BE224D /* Build configuration list for PBXNativeTarget "太鼓Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				E9A6804D1AB3C2F700BE224D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
