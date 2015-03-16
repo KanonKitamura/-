@@ -14,30 +14,56 @@
 
 @implementation ViewController
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"taiko"ofType:@"mp3"];
-    NSURL *url =[NSURL fileURLWithPath:path];
-    self.taiko =[[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
    
+    
+    // Do any additional setup after loading the view, typically from a nib.
+ 
+    NSString *path1=[[NSBundle mainBundle]pathForResource:@"taiko" ofType:@"mp3"];
+    NSURL *url1=[NSURL fileURLWithPath:path1];
+    self.taiko=[[AVAudioPlayer alloc]initWithContentsOfURL:url1 error:NULL];
+    
+    NSString *path2=[[NSBundle mainBundle]pathForResource:@"taiko03" ofType:@"wav"];
+    NSURL *url2=[NSURL fileURLWithPath:path2];
+    self.taiko03=[[AVAudioPlayer alloc]initWithContentsOfURL:url2 error:NULL];
+
 }
 
-- (void)didReceiveMemoryWarning {
+
+    - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 
-- (IBAction)playSound {
-    if (self.taiko.playing){
+
+
+
+- (IBAction)btn2 {
+    if(self.taiko.playing){
         self.taiko.currentTime =0.0;
+        
+        
     }else{
         [self.taiko play];
         
     }
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-}
+    
+   }
 
+
+- (IBAction)btn {
+    if(self.taiko03.playing){
+        self.taiko03.currentTime=0.0;
+        
+    }else{
+        [self.taiko03 play];
+    }
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
 @end

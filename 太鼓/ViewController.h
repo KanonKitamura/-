@@ -10,11 +10,17 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    SystemSoundID *sound_1;
+    SystemSoundID *sound_2;
+  
     
-@property AVAudioPlayer *taiko;
+}
+- (IBAction)btn2;
+- (IBAction)btn;
 
-- (IBAction)playSound;
+@property AVAudioPlayer *taiko03;
+@property AVAudioPlayer *taiko;
 
 @end
 

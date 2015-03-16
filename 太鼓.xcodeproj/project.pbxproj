@@ -19,8 +19,9 @@
 		E9A680551AB3CAAB00BE224D /* taiko.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A680541AB3CAAB00BE224D /* taiko.png */; };
 		E9A680571AB3CC6700BE224D /* 14_macho_damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */; };
 		E9A680591AB3CEA600BE224D /* taiko.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A680581AB3CEA600BE224D /* taiko.mp3 */; };
-		E9A6805B1AB3CF6F00BE224D /* taiko03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */; };
 		E9A6809B1AB3EBF700BE224D /* ここ.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A6809A1AB3EBF700BE224D /* ここ.png */; };
+		E9B944451AB7034A0085AD3B /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B944441AB7034A0085AD3B /* button.png */; };
+		E9B944471AB710330085AD3B /* taiko03.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9B944461AB710330085AD3B /* taiko03.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,9 @@
 		E9A680541AB3CAAB00BE224D /* taiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taiko.png; sourceTree = "<group>"; };
 		E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 14_macho_damage.wav; sourceTree = "<group>"; };
 		E9A680581AB3CEA600BE224D /* taiko.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko.mp3; sourceTree = "<group>"; };
-		E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko03.mp3; sourceTree = "<group>"; };
 		E9A6809A1AB3EBF700BE224D /* ここ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ここ.png"; path = "../ここ.png"; sourceTree = "<group>"; };
+		E9B944441AB7034A0085AD3B /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../button.png; sourceTree = "<group>"; };
+		E9B944461AB710330085AD3B /* taiko03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = taiko03.wav; path = ../taiko03.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,9 @@
 		E9A6801C1AB3C2F700BE224D = {
 			isa = PBXGroup;
 			children = (
+				E9B944461AB710330085AD3B /* taiko03.wav */,
+				E9B944441AB7034A0085AD3B /* button.png */,
 				E9A6809A1AB3EBF700BE224D /* ここ.png */,
-				E9A6805A1AB3CF6F00BE224D /* taiko03.mp3 */,
 				E9A680581AB3CEA600BE224D /* taiko.mp3 */,
 				E9A680561AB3CC6700BE224D /* 14_macho_damage.wav */,
 				E9A680541AB3CAAB00BE224D /* taiko.png */,
@@ -226,9 +229,10 @@
 				E9A680391AB3C2F700BE224D /* LaunchScreen.xib in Resources */,
 				E9A680361AB3C2F700BE224D /* Images.xcassets in Resources */,
 				E9A680551AB3CAAB00BE224D /* taiko.png in Resources */,
-				E9A6805B1AB3CF6F00BE224D /* taiko03.mp3 in Resources */,
 				E9A680571AB3CC6700BE224D /* 14_macho_damage.wav in Resources */,
+				E9B944471AB710330085AD3B /* taiko03.wav in Resources */,
 				E9A680591AB3CEA600BE224D /* taiko.mp3 in Resources */,
+				E9B944451AB7034A0085AD3B /* button.png in Resources */,
 				E9A6809B1AB3EBF700BE224D /* ここ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

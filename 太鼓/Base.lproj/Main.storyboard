@@ -14,16 +14,26 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taiko.png" id="cqL-vg-mJh">
                                 <rect key="frame" x="-31" y="0.0" width="383" height="585"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.79999999999999982" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b0T-Jv-JBs">
-                                <rect key="frame" x="193" y="538" width="56" height="57"/>
+                                <rect key="frame" x="157" y="455" width="56" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ここ.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playSound" destination="vXZ-lx-hvc" eventType="touchDown" id="VZe-Z1-d7H"/>
+                                    <action selector="btn2" destination="vXZ-lx-hvc" eventType="touchDown" id="kvd-i0-Ajj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.74999999999999978" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="atC-j2-pFc">
+                                <rect key="frame" x="-33" y="0.0" width="386" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn" destination="vXZ-lx-hvc" eventType="touchDown" id="HWa-Q3-R2O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,6 +46,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="button.png" width="500" height="425"/>
         <image name="taiko.png" width="500" height="700"/>
         <image name="ここ.png" width="114" height="114"/>
     </resources>
